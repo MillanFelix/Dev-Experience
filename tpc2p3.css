@@ -1,0 +1,139 @@
+/* RESET + BASE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+ display: block;
+  padding: 20px;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user h3 {
+  font-size: 16px;
+}
+
+.user p {
+  font-size: 12px;
+  color: #bbb;
+  margin-top: 4px;
+}
+
+.bell {
+  background: #222;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* SEARCH BAR */
+.search {
+  margin: 16px 0;
+  background: #222;
+  padding: 10px 12px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search i {
+  color: #999;
+}
+
+.search input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* PROMO CARD */
+.promo {
+  background: linear-gradient(135deg, #f7b733, #fc4a1a);
+  border-radius: 18px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.badge {
+  background: #000;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.promo h2 {
+  margin: 6px 0;
+  font-size: 18px;
+}
+
+.promo p {
+  font-size: 12px;
+}
+
+.percent {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.service {
+  background: #222;
+  width: 22%;
+  padding: 12px 6px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.service i {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-nav i {
+  font-size: 20px;
+  color: #aaa;
+}
+
+.bottom-nav .active {
+  color: #f7b733;
+}
+
+.bottom-nav .center {
+  background: #f7b733;
+  color: #000;
+  padding: 14px;
+  border-radius: 50%;
+}
+

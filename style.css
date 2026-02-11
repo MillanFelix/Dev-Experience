@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    font-family: 'Passion one', sans-serif;
+    font-size: 4.5vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    font-family: 'Sriracha';
+    font-size: 3.5vw;
+    line-height: 200%;
+}
+section{
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+
+}
+section p{
+    padding: 0px;
+}
+aside{
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+}
+aside p{
+    padding: 0px;
+}
+.branco{
+    background-color: white;
+    padding: 10% 5%;
+}
+.transparente{
+    color: white;
+    background-color: #0000007e;
+    width: 40%;
+    margin: 5%;
+    padding: 1%;
+}
+.branco2{
+    background-color: white;
+    padding: 20px ;
+}
+.branco2 p{
+    margin: 0px;
+}
+footer p{
+    background-color: black;
+    font-family: 'Sriracha';
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
