@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+  padding: 0;
+
+}
+body{
+    background:rgb(0, 0, 0);
+    color:white;
+}
+
+header{
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+}
+a{
+    padding: 4vw;
+}
+nav >span >i{
+    padding-right: 6vw;
+}
+.main{
+    padding-right: 6vw;
+}
+.main i{
+    display: inline-block;
+}
+#data{
+    text-allign:right;
+}
+footer{
+    background:grey;
+    padding:60px 50px;
+}
+footer p{
+    padding:20px 0px;
+}
