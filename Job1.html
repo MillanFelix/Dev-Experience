@@ -4,78 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job1</title>
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
     <link rel="stylesheet" href="Job1.css">
 </head>
 <body>
+    
+    <!-- Contém a barra de navegação do site -->
     <header>
         <nav>
+            <!-- Logo / Ícone da marca -->
             <span>
-            <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-html5"></i>
             </span>
+            <!-- Menu de navegação com links -->
             <span>
                 <a href="#Home">Home</a>
                 <a href="#Projectos">Projectos</a>
                 <a href="#Expirence">Experience</a>
                 <a href="#Contact">Contact</a>
             </span>
-            
         </nav>
     </header>
-    <article id="">
-        <i class="fa-solid fa-user"></i>
-        <h1>I do Code and make content<span id="">about it!</span></h1>
-        <p>I am seasoned full-stack software engineer with over<br>
-        8 years of professional experience, specializing in the backend development<br>
-        My expertise lies in crafting robust and scalable-based<br>
+
+    <!-- USER INFO  -->
+    
+    <article id="user-info">
+        <!-- Foto de perfil do usuário -->
+        <img src="Icons\2203549_admin_avatar_human_login_user_icon.png" alt="user image">
+        
+        <!-- Título principal com destaque -->
+        <h1>I do Code and make content<span id=""> about it!</span></h1>
+        
+        <!-- Descrição profissional -->
+        <p>I am seasoned full-stack software engineer with over
+        8 years of professional experience, specializing in the backend development
+        My expertise lies in crafting robust and scalable-based
         architectures on the Amazon AWS platform.
-    </p>
+        </p>
+        
+        <!-- Container para botões -->
+        <div>
+            <button>Get in Touch</button>
+            <button>Download CV</button>
+        </div>
     </article>
-<article id="Buttons">
-    <button type="button">Get in Touch</button>
-    <button type="button">Download CV</button>
-</article>
-<article id="Languages">
-<h5>EXPERIENCE WITH</h5>
-<i class="fa-solid fa-code"></i>
-</article>
-<article id="main">
-    <h3>EXPERIENCE</h3>
-    <i class="fa-regular fa-pen-to-square"></i>
-    <h4>Lead Software engineer att google<span>Nov 2019 - present</span></h4>
-    <p>
-        As a senior Sofware engineer at google in develoing inovtive solutions for google's <br>
-        core search algorithms.Collaborating with a dynamic team of engeneers,i contributed to the enhancement of<br>
-        search acurracy and efficiency,optimizing 
-    </p>
-    <div class=""><i class="fa-regular fa-pen-to-square"></i></div>
-    <div class=""><h4>Junior Software Engineer at Apple <span class="data">jan 2016-Dec 2017</span> </h4></div>
-    <p> 
-        During my tenure at aople i held the role of software architect where i playde a key role in shoping the<br>
-        architecture of mission-critical software poject. Responsible for designing scalable and efficient systemn,I<br>
-        provided technical laedership to a cross-function team.
-    </p>
-    <i class="fa-regular fa-pen-to-square"></i>
-    <h4>Software Engineer at <span class="data">Jan 2017 - Oct 2019</span></h4>
-    <p>
-        At Meta,I served as a Software Engineer, focusing on the design and implementation of backgroung systemns for<br>
-        the social media giant's dynamic> Working on projects that involved large-scale data processing and<br>
-        user engagement features, I leveraged my expertise to enure seamless functionality and scalability.
-    </p>
-</article>
-<footer>
-    <h3>Contact</h3>
-    <p>
-        Seasond Full Stack Software Engineer with over 8 years of hands-on experience in designing<br>
-        and implementing robust, scalable and innovative web solutions. Adept at lewering a<br> 
-        comprehensive skill set encompassing front-end and back-end tecnologies
-    </p>
-    <i class="fa-regular fa-pen-to-square"></i><span>developer@exinndigital.com</span><br>
-   <p><i class="fa-regular fa-pen-to-square"></i>
-    <i class="fa-regular fa-pen-to-square"></i>
-    <i class="fa-regular fa-pen-to-square"></i></p>
+    <!-- Contém as seções principais: tecnologias, projetos e experiência -->
+    <article id="main">
+        
+        <!--EXPERIENCE WITH-->
+        <section>
+            <h3>EXPERIENCE WITH</h3>
+            <!-- Ícones das tecnologias -->
+            <span>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-node-js"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3"></i>
+            </span>
+        </section>
 
-</footer>
+        <!-- ===== SEÇÃO DE PROJETOS ===== -->
+        <!-- Cards com tutoriais de HTML e CSS -->
+        <section id="Projects">
+            <!-- Projeto 1: Tutorial HTML -->
+            <div id="project-1">
+                <img src="Icons\7228383_data_sharing_global_network_database_icon.png" alt="html pic">
+                <div class="buttons">
+                    <p>click here to visit</p>
+                    <p>HTML TUTORIAL</p>
+                </div>
+            </div>
+            
+            <!-- Projeto 2: Tutorial CSS -->
+            <div id="project-2">
+                <img src="Icons\2203549_admin_avatar_human_login_user_icon.png" alt="css pic">
+                <div class="buttons">
+                    <p>click here to visit</p>
+                    <p>CSS TUTORIAL</p>
+                </div>
+            </div>
+        </section>
 
+        <!-- ===== SEÇÃO DE EXPERIÊNCIA PROFISSIONAL ===== -->
+        <!-- Lista de experiências de trabalho com empresas, cargos e datas -->
+        <section id="Experience">
+            
+            <!-- Container para o título centralizado (SEM TRAÇO) -->
+            <div class="experience-title-container">
+                <h2>EXPERIENCE</h2>
+            </div>
+            
+            <!-- Experiência 1: Google -->
+            <div class="experience-item">
+                <!-- Container com ícone e título (alinhados lado a lado) -->
+                <div class="title-container">
+                    <i class="fa-brands fa-google"></i>
+                    <h4>Lead Software engineer at google <span>Nov 2019 - present</span></h4>
+                </div>
+                <!-- Descrição da experiência -->
+                <p>
+                    As a senior Software engineer at google in developing innovative solutions for google's 
+                    core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of
+                    search accuracy and efficiency, optimizing user experience across millions of searches daily.
+                </p>
+            </div>
+            
+            <!-- Experiência 2: Apple -->
+            <div class="experience-item">
+                <div class="title-container">
+                    <i class="fa-brands fa-apple"></i>
+                    <h4>Junior Software Engineer at Apple <span>Jan 2016 - Dec 2017</span></h4>
+                </div>
+                <p> 
+                    During my tenure at Apple I held the role of software architect where I played a key role in shaping the
+                    architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I
+                    provided technical leadership to a cross-functional team of talented engineers.
+                </p>
+            </div>
+
+            <!-- Experiência 3: Meta -->
+            <div class="experience-item">
+                <div class="title-container">
+                    <i class="fa-brands fa-meta"></i>
+                    <h4>Software Engineer at Meta <span>Jan 2017 - Oct 2019</span></h4>
+                </div>
+                <p>
+                    At Meta, I served as a Software Engineer, focusing on the design and implementation of background systems for
+                    the social media giant's platform. Working on projects that involved large-scale data processing and
+                    user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.
+                </p>
+            </div>
+        </section>
+    </article>
+
+    <!-- Informações de contato e redes sociais -->
+    <footer>
+        <h3>Contact</h3>
+        <!-- Descrição profissional resumida -->
+        <p>
+            Seasond Full Stack Software Engineer with over 8 years of hands-on experience in designing
+            and implementing robust, scalable and innovative web solutions. Adept at lewering 
+            comprehensive skill set encompassing front-end and back-end tecnologies 
+        </p>
+        
+        <!-- Container para email com ícone ao lado (usando Flexbox) -->
+        <div class="contact-email">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <span>developer@exinndigital.com</span>
+        </div>
+        
+        <!-- Redes sociais -->
+        <div class="social-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
 </body>
 </html>
