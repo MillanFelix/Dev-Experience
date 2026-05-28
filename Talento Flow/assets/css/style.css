@@ -1,0 +1,595 @@
+/* ==================== Definição da Font do Site ==================== */
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+/* ==================== Fim da Definição da Font do Site ==================== */
+
+:root {
+    --body: #F9F8FD;
+    --white: #FFFFFF;
+    --roxo: #4642DD;
+    --cean: #32A2FB;
+    --dark: #23314B;
+    --action-blue: #0056D2;
+    --success-green: #00A86B;
+    --accent-yellow: #FFD700;
+    --deep-black: #1A1A1A;
+    --blue-gray: #64748B;
+    --light-border: #E2E8F0;
+    --off-white: #F8FAFC;
+}
+
+/* ==================== Reset da Estilização Padrão ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+/* ==================== Fim do Reset da Estilização Padrão ==================== */
+
+/* ==================== Estilização Geral ==================== */
+body {
+    padding: 1rem 5rem;
+    background-color: var(--body);
+}
+
+h1, h2 {
+    color: var(--deep-black);
+}
+
+p, a {
+    color: var(--blue-gray);
+}
+/* ==================== Fim da Estilização Geral ==================== */
+
+/* ==================== Estilização do Cabeçalho do Site ==================== */
+header {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #navigation {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #navigation #navlist ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+header #navigation li, 
+header #navigation a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.4s ease-in-out;
+}
+
+header #navigation li a:hover {
+    color: var(--roxo);
+    font-size: 1.2rem;
+}
+
+header img {
+    width: 150px;
+    height: 70px;
+}
+
+header #button {
+    display: flex;
+    gap: 1rem;
+}
+
+header #button button {
+    border: none;
+    padding: 0.6rem;
+    font-size: 1rem;
+}
+
+header #button #btn1 {
+    color: var(--roxo);
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    background-color: var(--white);
+}
+
+header #button #btn1:hover {
+    color: var(--off-white);
+    background-color: var(--roxo);
+}
+
+header #button #btn2 {
+    color: var(--off-white);
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    background-color: var(--roxo);
+}
+
+header #button #btn2:hover {
+    color: var(--roxo);
+    background-color: var(--off-white);
+}
+/* ==================== Fim da Estilização do Cabeçalho do Site ==================== */
+
+/* ==================== Estilização da Hero Section ==================== */
+#hero-section {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo {
+    width: 25rem;
+}
+
+#empty {
+    width: 25rem;
+}
+
+#conteudo h1 {
+    color: var(--dark);
+    font-size: 4rem;
+}
+
+#conteudo h2 {
+    font-size: 3rem;
+    color: var(--cean);
+}
+
+#Main {
+    margin-bottom: 2rem;
+}
+/* ==================== Fim da Estilização da Hero Section ==================== */
+
+/* ==================== Estilização da Search Section ==================== */
+#search {
+    padding: 1rem;
+    background-color: var(--white);
+}
+
+#search i {
+    font-size: 1.5rem;
+}
+
+#inputs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.provincia {
+    gap: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.vagas {
+    display: flex;
+}
+
+.vagas .btn {
+    border: none;
+    padding: 0.5rem;
+    font-weight: 600;
+    border-radius: none;
+    color: var(--off-white);
+    transition: 0.3s ease-in-out;
+    background-color: var(--roxo);
+}
+
+.vagas select {
+    font-size: 0.7rem;
+    color: var(--blue-gray);
+}
+
+.cargo input {
+    color: var(--off-white);
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    width: 13rem;
+}
+
+.paragraph {
+    padding: 1rem 0;
+}
+
+.paragraph p {
+    font-size: 0.8rem;
+    color: var(--blue-gray);
+}
+/* ==================== Fim da Estilização da Search Section ==================== */
+
+/* ==================== Estilização da Feature Section ==================== */
+#feature {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#feature p {
+    font-size: 1rem;
+}
+
+#feature .little-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ==================== Fim da Estilização da Feature Section ==================== */
+
+/* ==================== Explore por Categoria ==================== */
+.categorias {
+    padding: 80px 0;
+    background-color: var(--body);
+}
+
+.container_categorias {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.topo_categorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.topo_categorias h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.topo_categorias h2 span {
+    color: var(--cean);
+}
+
+.grade_categorias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card_categoria {
+    background-color: var(--white);
+    padding: 30px 20px;
+    border-radius: 14px;
+    text-align: left;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.card_categoria:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+.card_categoria h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 0 6px 0;
+    color: var(--deep-black);
+}
+
+.card_categoria p {
+    font-size: 13px;
+    color: var(--blue-gray);
+}
+
+.icon_categoria {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--off-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--roxo);
+}
+
+/* Categoria ativa */
+.card_categoria.ativa {
+    background-color: var(--roxo);
+}
+
+.card_categoria.ativa h3,
+.card_categoria.ativa p {
+    color: var(--white);
+}
+
+.card_categoria.ativa .icon_categoria {
+    background-color: rgba(255,255,255,0.2);
+    color: var(--white);
+}
+/* ==================== Fim Explore por Categoria ==================== */
+
+/* ==================== Seção Recrutar ==================== */
+.recrutar {
+    padding: 80px 0;
+}
+
+.container_recrutar {
+    width: 85%;
+    margin: 0 auto;
+    background-color: var(--roxo);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo_recrutar {
+    width: 45%;
+}
+
+.conteudo_recrutar h2 {
+    font-size: 28px;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.conteudo_recrutar p {
+    color: #d1d5db;
+    margin-bottom: 25px;
+}
+
+.btn_publicar {
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: var(--white);
+    color: var(--roxo);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn_publicar:hover {
+    background-color: var(--off-white);
+}
+
+.imagem_recrutar {
+    width: 45%;
+}
+
+.imagem_recrutar img {
+    width: 100%;
+}
+/* ==================== Fim Seção Recrutar ==================== */
+
+/* ==================== Vagas em Destaque ==================== */
+.vagas_destaque {
+    padding: 80px 0;
+}
+
+.container_destaque {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.topo_destaque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.topo_destaque h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.topo_destaque h2 span {
+    color: var(--cean);
+}
+
+.grade_destaque {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card_destaque {
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 14px;
+    transition: 0.3s ease;
+}
+
+.card_destaque:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+/* Topo do card (logo + tag) */
+.topo_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo_empresa {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.logo_empresa img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Título e descrição */
+.card_destaque h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--deep-black);
+}
+
+.card_destaque p {
+    font-size: 13px;
+    color: var(--blue-gray);
+    margin-bottom: 15px;
+}
+/* ==================== Fim Vagas em Destaque ==================== */
+
+/* ==================== Últimas Vagas ==================== */
+.container_ultimas {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.topo_ultimas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.topo_ultimas h1 span {
+    color: #3b82f6;
+}
+
+.ver_todas {
+    font-size: 14px;
+    color: #6b7280;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s ease;
+}
+
+.ver_todas i {
+    transition: 0.3s ease;
+}
+
+.ver_todas:hover {
+    color: #3b82f6;
+}
+
+.ver_todas:hover i {
+    transform: translateX(4px);
+}
+
+.grade_ultimas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card_vaga {
+    background-color: #ffffff;
+    padding: 22px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.card_vaga:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+.info_principal {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.logo_empresa {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.texto_vaga h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #111827;
+}
+
+.texto_vaga p {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+/* Tags - Estilo Compartilhado */
+.tags_vaga {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.tag:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* Variações de cor das tags */
+.tag.full {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.tag.marketing {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.tag.design {
+    background-color: #e0e7ff;
+    color: #3730a3;
+}
+
+/* Tags específicas para Vagas em Destaque */
+.card_destaque .tag.full {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.card_destaque .tag.marketing {
+    background-color: #ede9fe;
+    color: #5b21b6;
+}
+
+.card_destaque .tag.design {
+    background-color: #e0f2fe;
+    color: #0369a1;
+}
+/* ==================== Fim Últimas Vagas ==================== */
